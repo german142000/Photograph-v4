@@ -1,0 +1,82 @@
+@font-face {
+    font-family: quick;
+    src: url(../font/quick.ttf);
+  }
+
+html {
+	overflow: hidden;
+	}
+
+body { 
+	overflow: hidden;
+    opacity: 0;
+    margin: 0;
+    background: #000000;
+    font-family: quick;
+    color: #eeeeee;
+    user-select: none;
+    transition-duration: 0.5s;
+  }
+  
+input {
+    font-size: 12px;
+    background: #222222;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333333;
+    color: #eeeeee;
+  }
+
+input:focus {
+    outline-style: none;
+    border-color: #555555;
+  }
+  
+.mainLogo {
+    margin-top: 30px;
+	margin-left: 50px;
+    font-size: 30px;
+}
+
+.littleLogo1 {
+    font-size: 20px;
+}
+
+.littleLogo2 {
+    font-size: 15px;
+}
+
+.paragraph {
+	font-size: 12px;
+}
+
+button {
+	border: none;
+    background: #222222;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333333;
+    color: #eeeeee;
+    font-family: quick;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background: #333333;
+  }
+
+button:focus {
+    outline-style: none;
+    border-color: #555555;
+  }
+  
+.labelButton {
+	font-size: 15px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.labelButton:hover {
+	text-shadow: 0 0 7px #777, 0 0 10px #777, 0 0 21px #777;
+}
