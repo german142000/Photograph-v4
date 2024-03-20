@@ -499,13 +499,13 @@ SML;
 
 $sub = "Активация аккаунта Photograph";
 
-$url = 'https://api.unisender.com/ru/api/sendEmail';
+$url = '';
 $data = array(
 	'format' => 'json', 
-	'api_key' => '6bjw5uozbed55m5mxz1sr6sqx1awx1uiks43m6ze',
+	'api_key' => '',
 	'email' => $userstri,
 	'sender_name' => 'Photograph Account Activation',
-	'sender_email' => 'accactph@yandex.ru',
+	'sender_email' => '',
 	'subject' => $sub,
 	'body' => $smail,
 	'list_id' => '1'
